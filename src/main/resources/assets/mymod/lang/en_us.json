@@ -1,3 +1,5 @@
 {
-  "item.mymod.electro_crystal": "Electro Crystal"
+  "item.mymod.electro_crystal": "Electro Crystal",
+
+  "itemgroup.electro": "Electro items"
 }
