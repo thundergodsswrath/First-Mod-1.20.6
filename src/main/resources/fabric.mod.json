@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "mymod",
+	"version": "${version}",
+	"name": "My Mod",
+	"description": "Skibidi dop dop",
+	"authors": [
+		"thundergodswrath"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mymod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ihor.mymod.MyMod"
+		],
+		"fabric-datagen": [
+			"net.ihor.mymod.MyModDataGenerator"
+		]
+	},
+	"mixins": [
+		"mymod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
